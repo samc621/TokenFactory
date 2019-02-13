@@ -1,0 +1,17 @@
+{
+  "name": "erc20-factory",
+  "version": "1.0.0",
+  "description": "A simple factory for deploying ERC20 tokens.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Corso",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.2"
+  }
+}
