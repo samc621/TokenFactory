@@ -2,13 +2,13 @@
 
 ## What does this repository contain?
 
-1. A `Token` contract using the [openzeppelin-solidity](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/token/ERC20/ERC20.sol) library to implement a standard ERC20 token.
-2. A `Factory` contract to deploy this token.
-3. A Javascript test file for the `Factory` contract.
+1. An `ERC20` and an `ERC721` contract using the [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) standards.
+2. A `Factory` contract to deploy these contracts.
+3. A Javascript test file for testing the `Factory` contract with [Truffle](https://github.com/trufflesuite/truffle).
 
 ## What can I use it for?
 
-You can deploy the `Factory` contract on an Ethereum blockchain network, and then use it to trustlessly deploy secure new ERC20 tokens with params for `name` (e.g. "Google Token"), `symbol` (e.g. "GOOG"), and `totalSupply` (e.g. 1000000) on that same network.
+You can deploy the `Factory` contract on an Ethereum blockchain network, and then use it to trustlessly deploy secure new ERC20 and ERC721 tokens on that same network.
 
 ## How can I use it?
 
