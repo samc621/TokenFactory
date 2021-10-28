@@ -1,4 +1,4 @@
-# ERC20-Factory
+# TokenFactory
 
 ## What does this repository contain?
 
