@@ -1,7 +1,7 @@
 {
   "name": "erc20-factory",
   "version": "1.0.0",
-  "description": "A simple factory for deploying ERC20 tokens.",
+  "description": "A simple factory for deploying ERC20 and ERC721 tokens.",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -12,6 +12,11 @@
   "author": "Samuel Corso",
   "license": "ISC",
   "dependencies": {
-    "openzeppelin-solidity": "^2.1.2"
+    "@openzeppelin/contracts": "^4.3.2"
+  },
+  "devDependencies": {
+    "bn.js": "^5.2.0",
+    "chai": "^4.3.4",
+    "chai-bn": "^0.3.0"
   }
 }
