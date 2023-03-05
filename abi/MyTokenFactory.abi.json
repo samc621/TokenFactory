@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.9;
+
+import "./MyToken.sol";
+
+contract MyTokenFactory {
+    event TokenCreated(address indexed tokenAddress, address indexed owner);
+
+    function createToken(string memory name, string memory symbol, uint256 initialSupply, address owner) external returns (address) {
+        MyToken token = new MyToken();
+        token.initialize(name, symbol);
+        token.mint(owner, initialSupply);
+        token.transferOwnership(owner);
+
+        emit TokenCreated(address(token), owner);
+
+        return address(token);
+    }
+}
