@@ -1,5 +1,11 @@
 # TokenFactory
 
+# Polygon Address
+
+Migration.sol https://polygonscan.com/address/0xeBfF3bd5E6325DE8057Dc43eE58BC4Dcdc838361
+Factory.sol https://polygonscan.com/address/0x5ad70c187e448b9ca6104cc55619bf9a3a271efd
+ERC20Token.sol https://polygonscan.com/address/0x7284D116753D79015017a6a1e3a3e94d30170157
+
 ## What does this repository contain?
 
 1. An `ERC20` and an `ERC721` contract using the [@openzeppelin/contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) standards.
